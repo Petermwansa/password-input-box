@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: rgb(52, 97, 97);
+}
+.input__box {
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+}
+.input__box input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    outline: 0;
+    font-size: 22px;
+    color: black;
+}
+.input__box img {
+    width: 35px;
+    cursor: pointer;
+}
